@@ -2,13 +2,7 @@
 :strawberry: A landing page where you can list all the apps and services stored in different places and access them from a single page.
 
 <img src="http://i.imgur.com/Rz3onJW.png" align="right" />
-<br>
 
-
-### TODO
-
-1. Backend + features
-2. Responsive desing
 
 ## Introduction
 So the main idea for this landing page was to have all my usual links plus the services stored on different servers/vms, like Deluge, CouchPotato, Sonarr and many more.
