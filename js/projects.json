@@ -1,0 +1,35 @@
+{
+    "projects": [{
+        "name": "Facebook",
+        "link": "https://www.facebook.com/",
+        "colour": "red"
+    }, {
+        "name": "Sonarr",
+        "link": "https://sonarr.tv/",
+        "colour": "cyan"
+    }, {
+        "name": "GitHub",
+        "link": "https://github.com/emimontesdeoca",
+        "colour": "deep-purple"
+    }, {
+        "name": "Gmail",
+        "link": "https://mail.google.com",
+        "colour": "green"
+    }, {
+        "name": "Youtube",
+        "link": "https://www.youtube.com/",
+        "colour": "purple"
+    }, {
+        "name": "Reddit",
+        "link": "https://www.reddit.com/r/homelab/",
+        "colour": "yellow"
+    }, {
+        "name": "Deluge",
+        "link": "http://deluge-torrent.org/",
+        "colour": "blue"
+    }, {
+        "name": "Batoto",
+        "link": "http://bato.to/",
+        "colour": "orange"
+    }]
+}
