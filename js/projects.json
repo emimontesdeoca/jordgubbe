@@ -31,5 +31,37 @@
         "name": "Batoto",
         "link": "http://bato.to/",
         "colour": "orange"
+    }, {
+        "name": "GitLab",
+        "link": "https://www.youtube.com/",
+        "colour": "green"
+    }, {
+        "name": "Yahoo",
+        "link": "https://www.reddit.com/r/homelab/",
+        "colour": "cyan"
+    }, {
+        "name": "Guacamole",
+        "link": "https://sonarr.tv/",
+        "colour": "red"
+    }, {
+        "name": "r/Homelab",
+        "link": "https://github.com/emimontesdeoca",
+        "colour": "yellow"
+    },{
+        "name": "Dropbox",
+        "link": "https://www.facebook.com/",
+        "colour": "red"
+    }, {
+        "name": "uTorrent",
+        "link": "https://sonarr.tv/",
+        "colour": "yellow"
+    }, {
+        "name": "FTPServer",
+        "link": "https://github.com/emimontesdeoca",
+        "colour": "deep-purple"
+    }, {
+        "name": "NAS",
+        "link": "https://mail.google.com",
+        "colour": "green"
     }]
 }
