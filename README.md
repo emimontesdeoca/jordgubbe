@@ -3,6 +3,11 @@
 
 <img src="http://i.imgur.com/BnS8iuh.png" align="right" />
 
+### TODO
+
+1. Backend + features
+2. Responsive desing
+
 ## Introduction
 So the main idea for this landing page was to have all my usual links plus the services stored on different servers/vms, like Deluge, CouchPotato, Sonarr and many more.
 
