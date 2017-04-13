@@ -50,7 +50,7 @@ You can use the github issue tracker for bug reports, feature requests, question
 
 ## Thanks
 
-Thanks to simplyWeather for its API, r/homelab for being a cool subreddit, and myself for finish the project(for now!).
+Thanks to simplyWeather for its API, r/homelab for being a cool subreddit, and myself for finishing the project(for now!).
 
 ## License
 
