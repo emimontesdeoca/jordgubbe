@@ -1,7 +1,9 @@
 # jordgubbe
 :strawberry: A landing page where you can list all the apps and services stored in different places and access them from a single page.
 
-<img src="http://i.imgur.com/BnS8iuh.png" align="right" />
+<img src="http://i.imgur.com/Rz3onJW.png" align="right" />
+<br>
+
 
 ### TODO
 
