@@ -2,6 +2,9 @@ var app = angular.module("myApp", []);
 
 app.controller("myCtrl", function($scope, $http) {
     $scope.items = []
+
+    // Getting the data from the json file
+
     $http.get('js/projects.json').then(function(response) {
         $scope.items = response.data;
     });
