@@ -5,26 +5,24 @@ app.controller("myCtrl", function($scope, $http) {
     $scope.items = []
     $scope.config = []
 
-    // Getting the data from the condfig json file
-
+    // Getting the data from the config json file
     $http.get('js/config.json').then(function(response) {
         $scope.config = response.data;
     });
 
-    // Getting the data from the json file
-
+    // Getting the data from the apps json file
     $http.get('js/apps.json').then(function(response) {
         $scope.items = response.data;
     });
 
-    // Weather stuff
-if ($scope.config.weatherEnable) {
-    $(document).ready(function() {
-        loadWeather($scope.config.weatherLocation, '');
-    });
-}
-    
+    // Weather stuff, if it is enable
+    if ($scope.config.weatherEnable) {
+        $(document).ready(function() {
+            loadWeather($scope.config.weatherLocation, '');
+        });
+    }
 
+    // Weather function
     function loadWeather(location, woeid) {
         $.simpleWeather({
             location: location,
