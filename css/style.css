@@ -1,1 +1,89 @@
-@import "https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css";@import "colors.css";@import "https://cdn.bootcss.com/hover.css/2.1.1/css/hover-min.css";@import "https://fonts.googleapis.com/css?family=Roboto";body{font-family:'Roboto',sans-serif}a{text-align:center}#header{height:70px;background-color:#424242;display:table;width:100%}#title{color:#fff;font-size:30px;padding-left:20px;vertical-align:middle;display:table-cell}.items{float:left;width:25%;height:220px;margin:0;display:table}.item-text{position:relative;font-size:35px;color:#fff;vertical-align:middle;display:table-cell;transform:translateZ(0);box-shadow:0 0 1px rgba(0,0,0,0);backface-visibility:hidden;-moz-osx-font-smoothing:grayscale;transition-duration:.3s;transition-property:transform}#weather{color:#fff;font-size:30px;padding-left:20px;vertical-align:middle;display:table-cell;text-align:right;padding-right:20px}.items:hover .item-text{transform:scale(1.1)}.animated{animation-duration:1s;animation-fill-mode:both}@keyframes fadeIn{from{opacity:0}to{opacity:1}}.fadeIn{animation-name:fadeIn}@media only screen and (min-device-width:320px) and (max-device-width:480px){.items{float:left;width:100%;height:220px;margin:0;display:table}#weather{font-size:20px}}
+body {
+    font-family: 'Roboto', sans-serif
+}
+
+a {
+    text-align: center
+}
+
+#header {
+    height: 70px;
+    background-color: #424242;
+    display: table;
+    width: 100%
+}
+
+#title {
+    color: #fff;
+    font-size: 30px;
+    padding-left: 20px;
+    vertical-align: middle;
+    display: table-cell
+}
+
+.items {
+    float: left;
+    width: 25%;
+    height: 220px;
+    margin: 0;
+    display: table
+}
+
+.item-text {
+    position: relative;
+    font-size: 35px;
+    color: #fff;
+    vertical-align: middle;
+    display: table-cell;
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    transition-duration: .3s;
+    transition-property: transform
+}
+
+#weather {
+    color: #fff;
+    font-size: 30px;
+    padding-left: 20px;
+    vertical-align: middle;
+    display: table-cell;
+    text-align: right;
+    padding-right: 20px
+}
+
+.items:hover .item-text {
+    transform: scale(1.1)
+}
+
+.animated {
+    animation-duration: 1s;
+    animation-fill-mode: both
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0
+    }
+    to {
+        opacity: 1
+    }
+}
+
+.fadeIn {
+    animation-name: fadeIn
+}
+
+@media only screen and (min-device-width:320px) and (max-device-width:480px) {
+    .items {
+        float: left;
+        width: 100%;
+        height: 220px;
+        margin: 0;
+        display: table
+    }
+    #weather {
+        font-size: 20px
+    }
+}
