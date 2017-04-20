@@ -16,11 +16,9 @@ app.controller("myCtrl", function($scope, $http) {
     });
 
     // Weather stuff, if it is enable
-    if ($scope.config.weatherEnable) {
-        $(document).ready(function() {
-            loadWeather($scope.config.weatherLocation, '');
-        });
-    }
+    $(document).ready(function() {
+        loadWeather($scope.config.weatherLocation, '');
+    });
 
     // Weather function
     function loadWeather(location, woeid) {
