@@ -15,10 +15,13 @@ app.controller("myCtrl", function($scope, $http) {
         $scope.items = response.data;
     });
 
-    // Weather stuff
-    $(document).ready(function() {
-        loadWeather($scope.config.weatherLocation, '');
-    });
+    // Weather stuff, if it is enable
+    if ($scope.config.weatherEnable) {
+        $(document).ready(function() {
+            loadWeather($scope.config.weatherLocation, '');
+        });
+    }
+
 
     // Weather function
     function loadWeather(location, woeid) {
