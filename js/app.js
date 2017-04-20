@@ -17,8 +17,9 @@ app.controller("myCtrl", function($scope, $http) {
 
     // Weather stuff, if it is enable
     $(document).ready(function() {
-        loadWeather('Tenerife', '');
+        loadWeather($scope.config.weatherLocation, '');
     });
+
     // Weather function
     function loadWeather(location, woeid) {
         $.simpleWeather({
