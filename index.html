@@ -6,7 +6,7 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#424242">
-    <title>jordgubbe</title>
+    <title>{{config.pageTitle}}</title>
     <!-- Icon -->
     <link rel="icon" type="image/png" href="css/icon.png">
     <!-- Css reset -->
@@ -21,13 +21,13 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 </head>
 <div id="header">
-    <div id="title" class="animated fadeIn">Jordgubbe</div>
+    <div id="title" class="animated fadeIn">{{config.pageHeader}}</div>
     <div id="weather" class="animated fadeIn"></div>
 </div>
 <div id="container">
-    <a href="{{projects.link}}" ng-repeat="projects in items.projects" class="animated fadeIn" style="animation-delay: {{$index}}50ms ">
-        <div class="items {{projects.colour}}">
-            <span class="item-text">{{projects.name}}</span>
+    <a href="{{apps.link}}" ng-repeat="apps in items.apps" class="animated fadeIn" style="animation-delay: {{$index}}50ms ">
+        <div class="items {{apps.colour}}">
+            <span class="item-text">{{apps.name}}</span>
         </div>
     </a>
 </div>

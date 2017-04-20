@@ -1,19 +1,29 @@
 var app = angular.module("myApp", []);
 
 app.controller("myCtrl", function($scope, $http) {
+
     $scope.items = []
+    $scope.config = []
+
+    // Getting the data from the condfig json file
+
+    $http.get('js/config.json').then(function(response) {
+        $scope.config = response.data;
+    });
 
     // Getting the data from the json file
 
-    $http.get('js/projects.json').then(function(response) {
+    $http.get('js/apps.json').then(function(response) {
         $scope.items = response.data;
     });
 
     // Weather stuff
-
+if ($scope.config.weatherEnable) {
     $(document).ready(function() {
-        loadWeather('Tenerife', '');
+        loadWeather($scope.config.weatherLocation, '');
     });
+}
+    
 
     function loadWeather(location, woeid) {
         $.simpleWeather({

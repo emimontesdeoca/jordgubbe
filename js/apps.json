@@ -1,5 +1,5 @@
 {
-    "projects": [{
+    "apps": [{
         "name": "Facebook",
         "link": "https://www.facebook.com/",
         "colour": "red"
