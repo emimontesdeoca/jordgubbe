@@ -1,17 +1,25 @@
 body {
-  font-family: 'Roboto', sans-serif
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
 }
 
 a {
   text-align: center;
   text-decoration: none;
+  width: 25%;
+  flex-grow: 1;
+  display: flex;
 }
 
 #header {
-  height: 70px;
+  height: 79px;
   background-color: #424242;
   display: table;
-  width: 100%
+  width: 100%;
 }
 
 #title {
@@ -19,27 +27,23 @@ a {
   font-size: 30px;
   padding-left: 20px;
   vertical-align: middle;
-  display: table-cell
+  display: table-cell;
 }
 
 #container {
   display: flex;
-  -webkit-flex-direction: row;
-  -ms-flex-direction: row;
   flex-direction: row;
   justify-content: flex-start;
   flex-wrap: wrap;
-  -ms-align-items: baseline;
-  align-items: baseline;
-  align-content: flex-start;
   width: 100%;
 }
 
 .items {
-  width: 395px;
+  width: 100%;
   height: 220px;
   margin: 0;
-  display: table
+  display: table;
+  flex-grow: 1;
 }
 
 .item-text {
@@ -52,8 +56,8 @@ a {
   box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   backface-visibility: hidden;
   -moz-osx-font-smoothing: grayscale;
-  transition-duration: .3s;
-  transition-property: transform
+  transition-duration: 0.3s;
+  transition-property: transform;
 }
 
 #weather {
@@ -63,42 +67,42 @@ a {
   vertical-align: middle;
   display: table-cell;
   text-align: right;
-  padding-right: 20px
+  padding-right: 20px;
 }
 
 .items:hover .item-text {
-  transform: scale(1.1)
+  transform: scale(1.1);
 }
 
 .animated {
   animation-duration: 1s;
-  animation-fill-mode: both
+  animation-fill-mode: both;
 }
 
 @keyframes fadeIn {
   from {
-    opacity: 0
+    opacity: 0;
   }
   to {
-    opacity: 1
+    opacity: 1;
   }
 }
 
 .fadeIn {
-  animation-name: fadeIn
+  animation-name: fadeIn;
 }
 
-@media only screen and (min-device-width:320px) and (max-device-width:480px) {
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
   .items {
     width: 100%;
     height: 220px;
     margin: 0;
-    display: table
+    display: table;
   }
   a {
     width: 100%;
   }
   #weather {
-    font-size: 20px
+    font-size: 20px;
   }
 }
