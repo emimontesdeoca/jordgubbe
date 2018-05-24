@@ -1,8 +1,10 @@
-# jordgubbe
-:strawberry: A landing page where you can list all the apps and services stored in different places and access them from a single page.
+<h1 align="center">jordgubbe :strawberry:</h1>
 
-<img src="http://i.imgur.com/Rz3onJW.png" align="right" />
+ <p align="center">A landing page where you can list all the apps and services stored in different places and access them from a single page.</p>
+ 
+  <p align="center">:star: You can try an example <a href="https://emimontesdeoca.github.io/jordgubbe/">here</a> :star:</p>
 
+[![https://gyazo.com/3ddcf8d28366bc7bab946731d7c665c5](https://i.gyazo.com/3ddcf8d28366bc7bab946731d7c665c5.png)](https://gyazo.com/3ddcf8d28366bc7bab946731d7c665c5)
 
 ## Introduction
 So the main idea for this landing page was to have all my usual links plus the services stored on different servers/vms, like Deluge, CouchPotato, Sonarr and many more.
@@ -10,11 +12,6 @@ So the main idea for this landing page was to have all my usual links plus the s
 I came up with this when I was looking for a landing page, there were good ones but I wanted to make something fresh and either material design o metro design, ended up picking metro because, well, it looks cool.
 
 Also I used [simpleWeather](http://simpleweatherjs.com/) and added some weather information on the header.
-
-## What's next?
-My plans for the upcomings days is to build a backend in NodeJS that will allow the user to add links/services from the landing page itself.
-
-I am open to suggestions and critics.
 
 ## Where are the links stored?
 Everything regarding the links are stored in a .json file, there for now, you can add the links with its title and colour.
@@ -28,9 +25,9 @@ This is ithe scheme of the json file:
    "colour": "cyan"
 }
 ```
-Name -> is the title that is shown in the page.<br>
-Link -> URL to the link/service/app.<br>
-Colour -> Background colour of service, to see the available colours go to [css/colors.css](https://github.com/emimontesdeoca/jordgubbe/blob/master/css/colors.css).
+`name`: is the title that is shown in the page.<br>
+`link`: URL to the link/service/app.<br>
+`colour`: Background colour of service, to see the available colours go to [css/colors.css](https://github.com/emimontesdeoca/jordgubbe/blob/master/css/colors.css).
 
 ## What about the weather?
 
